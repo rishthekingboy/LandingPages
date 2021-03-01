@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    border: 1px solid black;
+}
+
+.left-container{
+    flex: 0.6;
+    padding: 1em 1em;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bold;
+    height: 70vh;
+}
+.right-container{
+    background-color: lightgray;
+    flex: 0.4;
+}
