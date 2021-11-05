@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: rgb(37, 37, 37);
+  padding: 20px 0;
+}
+
+.footer-item {
+  line-height: 1.5;
+  border-right: 1px solid transparent;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.footer-label {
+  border-color: white;
+}
+
+.footer svg {
+  color: white;
+  font-size: 30px;
+}

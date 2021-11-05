@@ -1,0 +1,40 @@
+.content {
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20%;
+  padding-bottom: 20px;
+}
+
+.content-text {
+  width: 30%;
+}
+
+.content-text-title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.content-text-para {
+  margin: 25px 0;
+  line-height: 1.5;
+}
+
+.appointmentBtn {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(37, 37, 37);
+  padding: 10px 20px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.content-img img {
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+}
